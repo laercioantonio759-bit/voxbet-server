@@ -1,0 +1,1906 @@
+{
+  "users": [
+    {
+      "id": "usr_86a9ed52-9f4e-47ef-b425-422c2be53171",
+      "name": "VoxBet Admin",
+      "email": "admin@voxbet.local",
+      "phone": "+244900000000",
+      "passwordHash": "$2b$12$.QUVKf7fVlpU3WvXfMdSNesCT8wCsmeqA0fV26H0kTxqPygt23jVG",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "kycStatus": "VERIFIED",
+      "createdAt": "2026-08-16T20:02:45.822Z"
+    },
+    {
+      "id": "usr_610143af-0633-42d8-a25e-2609fa6fd19a",
+      "name": "MARIO LOURENCO ANTONIO PULULU",
+      "email": "laercioantonio759@gmail.com",
+      "phone": "+244922888789",
+      "identificationNumber": "0071558960LA041",
+      "passwordHash": "$2b$12$3KBBSe5TGD2F0eloNu0YjOWFMsX86JvUwDzbfF.fIurSDrg1Q120O",
+      "role": "USER",
+      "status": "ACTIVE",
+      "kycStatus": "PENDING",
+      "createdAt": "2026-08-16T22:30:05.373Z"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "wal_79034d8d-f813-4b3a-9268-a5431b2e99c5",
+      "userId": "usr_86a9ed52-9f4e-47ef-b425-422c2be53171",
+      "balance": 0,
+      "currency": "VCOIN",
+      "updatedAt": "2026-08-16T20:02:45.823Z"
+    },
+    {
+      "id": "wal_9249f39b-daa7-476f-9f8e-b9776fe9b8b5",
+      "userId": "usr_610143af-0633-42d8-a25e-2609fa6fd19a",
+      "balance": 10000,
+      "currency": "VCOIN",
+      "updatedAt": "2026-08-16T22:30:05.373Z"
+    }
+  ],
+  "bets": [],
+  "transactions": [],
+  "notifications": [],
+  "otp": [],
+  "kyc": [],
+  "deposits": [],
+  "withdrawals": [],
+  "sync": {
+    "lastFixturesSync": "2026-08-16T23:01:24.334Z",
+    "lastLiveSync": "2026-08-16T21:41:43.410Z",
+    "currentLeagues": [
+      {
+        "league": {
+          "id": 807,
+          "name": "AFC Challenge Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/807.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2014,
+            "start": "2013-03-02",
+            "end": "2014-05-30",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 925,
+          "name": "Super Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/925.png"
+        },
+        "country": {
+          "name": "Czech-Republic",
+          "code": "CZ",
+          "flag": "https://media.api-sports.io/flags/cz.svg"
+        },
+        "seasons": [
+          {
+            "year": 2015,
+            "start": "2015-07-18",
+            "end": "2015-07-18",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 804,
+          "name": "Caribbean Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/804.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2016,
+            "start": "2016-03-22",
+            "end": "2017-06-25",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 805,
+          "name": "Copa Centroamericana",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/805.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2016,
+            "start": "2017-01-13",
+            "end": "2017-01-22",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 21,
+          "name": "Confederations Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/21.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2017,
+            "start": "2017-06-17",
+            "end": "2017-07-02",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": true,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 505,
+          "name": "League Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/505.png"
+        },
+        "country": {
+          "name": "Singapore",
+          "code": "SG",
+          "flag": "https://media.api-sports.io/flags/sg.svg"
+        },
+        "seasons": [
+          {
+            "year": 2017,
+            "start": "2017-07-07",
+            "end": "2017-07-21",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 827,
+          "name": "Crown Prince Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/827.png"
+        },
+        "country": {
+          "name": "Saudi-Arabia",
+          "code": "SA",
+          "flag": "https://media.api-sports.io/flags/sa.svg"
+        },
+        "seasons": [
+          {
+            "year": 2017,
+            "start": "2017-09-07",
+            "end": "2017-10-30",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 409,
+          "name": "Premier League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/409.png"
+        },
+        "country": {
+          "name": "Namibia",
+          "code": "NA",
+          "flag": "https://media.api-sports.io/flags/na.svg"
+        },
+        "seasons": [
+          {
+            "year": 2018,
+            "start": "2018-11-09",
+            "end": "2019-04-24",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 49,
+          "name": "National League - Play-offs",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/49.png"
+        },
+        "country": {
+          "name": "England",
+          "code": "GB-ENG",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        },
+        "seasons": [
+          {
+            "year": 2018,
+            "start": "2019-05-01",
+            "end": "2019-05-11",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 718,
+          "name": "Piala Indonesia",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/718.png"
+        },
+        "country": {
+          "name": "Indonesia",
+          "code": "ID",
+          "flag": "https://media.api-sports.io/flags/id.svg"
+        },
+        "seasons": [
+          {
+            "year": 2018,
+            "start": "2018-05-08",
+            "end": "2019-08-06",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 808,
+          "name": "CONCACAF Nations League - Qualification",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/808.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2018,
+            "start": "2018-09-06",
+            "end": "2019-03-25",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 65,
+          "name": "Coupe de la Ligue",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/65.png"
+        },
+        "country": {
+          "name": "France",
+          "code": "FR",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-07-26",
+            "end": "2020-07-31",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": true,
+                "statistics_players": true
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 264,
+          "name": "Copa MX",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/264.png"
+        },
+        "country": {
+          "name": "Mexico",
+          "code": "MX",
+          "flag": "https://media.api-sports.io/flags/mx.svg"
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-07-31",
+            "end": "2020-09-22",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 26,
+          "name": "International Champions Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/26.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-07-17",
+            "end": "2019-08-10",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 557,
+          "name": "Super Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/557.png"
+        },
+        "country": {
+          "name": "Norway",
+          "code": "NO",
+          "flag": "https://media.api-sports.io/flags/no.svg"
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-03-17",
+            "end": "2019-03-17",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 766,
+          "name": "China Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/766.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-03-21",
+            "end": "2019-03-25",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 769,
+          "name": "Premier League Asia Trophy",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/769.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2019,
+            "start": "2019-07-17",
+            "end": "2019-07-20",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 360,
+          "name": "League Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/360.png"
+        },
+        "country": {
+          "name": "Ireland",
+          "code": "IE",
+          "flag": "https://media.api-sports.io/flags/ie.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-03-08",
+            "end": "2020-03-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 483,
+          "name": "Copa de la Superliga",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/483.png"
+        },
+        "country": {
+          "name": "Argentina",
+          "code": "AR",
+          "flag": "https://media.api-sports.io/flags/ar.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-03-13",
+            "end": "2020-12-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 558,
+          "name": "Supercopa",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/558.png"
+        },
+        "country": {
+          "name": "Peru",
+          "code": "PE",
+          "flag": "https://media.api-sports.io/flags/pe.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-01-23",
+            "end": "2020-01-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 670,
+          "name": "Community Shield Women",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/670.png"
+        },
+        "country": {
+          "name": "England",
+          "code": "GB-ENG",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-08-29",
+            "end": "2020-08-29",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 679,
+          "name": "U21 League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/679.png"
+        },
+        "country": {
+          "name": "Ukraine",
+          "code": "UA",
+          "flag": "https://media.api-sports.io/flags/ua.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-08-20",
+            "end": "2021-05-14",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 683,
+          "name": "Campeonato de Portugal Prio - Group G",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/683.png"
+        },
+        "country": {
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-09-20",
+            "end": "2021-04-11",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 684,
+          "name": "Campeonato de Portugal Prio - Group H",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/684.png"
+        },
+        "country": {
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-09-20",
+            "end": "2021-04-10",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 437,
+          "name": "Primera División RFEF - Group 3",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/437.png"
+        },
+        "country": {
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-17",
+            "end": "2021-05-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 583,
+          "name": "Gamma Ethniki - Group 8",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/583.png"
+        },
+        "country": {
+          "name": "Greece",
+          "code": "GR",
+          "flag": "https://media.api-sports.io/flags/gr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-10",
+            "end": "2021-06-06",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 438,
+          "name": "Primera División RFEF - Group 4",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/438.png"
+        },
+        "country": {
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-18",
+            "end": "2021-05-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 692,
+          "name": "Primera División RFEF - Group 5",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/692.png"
+        },
+        "country": {
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-17",
+            "end": "2021-05-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 693,
+          "name": "Gamma Ethniki - Group 9",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/693.png"
+        },
+        "country": {
+          "name": "Greece",
+          "code": "GR",
+          "flag": "https://media.api-sports.io/flags/gr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-11",
+            "end": "2021-06-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 694,
+          "name": "Gamma Ethniki - Group 10",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/694.png"
+        },
+        "country": {
+          "name": "Greece",
+          "code": "GR",
+          "flag": "https://media.api-sports.io/flags/gr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-10-18",
+            "end": "2021-06-06",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 198,
+          "name": "Football League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/198.png"
+        },
+        "country": {
+          "name": "Greece",
+          "code": "GR",
+          "flag": "https://media.api-sports.io/flags/gr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2021-03-27",
+            "end": "2021-06-27",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 829,
+          "name": "Youth League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/829.png"
+        },
+        "country": {
+          "name": "Turkmenistan",
+          "code": "TM",
+          "flag": "https://media.api-sports.io/flags/tm.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2020-03-05",
+            "end": "2020-05-13",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 502,
+          "name": "Copa Bicentenario",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/502.png"
+        },
+        "country": {
+          "name": "Peru",
+          "code": "PE",
+          "flag": "https://media.api-sports.io/flags/pe.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2021-06-10",
+            "end": "2021-07-27",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 832,
+          "name": "Coupe de la Ligue",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/832.png"
+        },
+        "country": {
+          "name": "Algeria",
+          "code": "DZ",
+          "flag": "https://media.api-sports.io/flags/dz.svg"
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2021-04-16",
+            "end": "2021-07-05",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 881,
+          "name": "Olympics Men - Qualification Concacaf",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/881.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2020,
+            "start": "2019-07-17",
+            "end": "2021-03-31",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 700,
+          "name": "Kakkosen Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/700.png"
+        },
+        "country": {
+          "name": "Finland",
+          "code": "FI",
+          "flag": "https://media.api-sports.io/flags/fi.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-01-24",
+            "end": "2021-10-16",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 678,
+          "name": "Super Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/678.png"
+        },
+        "country": {
+          "name": "Ukraine",
+          "code": "UA",
+          "flag": "https://media.api-sports.io/flags/ua.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-09-22",
+            "end": "2021-09-22",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 535,
+          "name": "CECAFA Senior Challenge Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/535.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-07-18",
+            "end": "2021-07-30",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 337,
+          "name": "Druha Liga - Group B",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/337.png"
+        },
+        "country": {
+          "name": "Ukraine",
+          "code": "UA",
+          "flag": "https://media.api-sports.io/flags/ua.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-07-25",
+            "end": "2022-05-21",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 643,
+          "name": "3. liga - Bratislava",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/643.png"
+        },
+        "country": {
+          "name": "Slovakia",
+          "code": "SK",
+          "flag": "https://media.api-sports.io/flags/sk.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-08-07",
+            "end": "2022-06-18",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 681,
+          "name": "Campeonato de Portugal Prio - Group E",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/681.png"
+        },
+        "country": {
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-08-29",
+            "end": "2022-03-06",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 682,
+          "name": "Campeonato de Portugal Prio - Group F",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/682.png"
+        },
+        "country": {
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-08-29",
+            "end": "2022-03-06",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 801,
+          "name": "2. Liga Interregional - Group 6",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/801.png"
+        },
+        "country": {
+          "name": "Switzerland",
+          "code": "CH",
+          "flag": "https://media.api-sports.io/flags/ch.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-08-21",
+            "end": "2022-06-11",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 868,
+          "name": "Premier League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/868.png"
+        },
+        "country": {
+          "name": "Pakistan",
+          "code": "PK",
+          "flag": "https://media.api-sports.io/flags/pk.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-08-14",
+            "end": "2021-12-30",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 883,
+          "name": "Reserve League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/883.png"
+        },
+        "country": {
+          "name": "Netherlands",
+          "code": "NL",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-09-27",
+            "end": "2022-03-14",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 582,
+          "name": "Gamma Ethniki - Group 7",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/582.png"
+        },
+        "country": {
+          "name": "Greece",
+          "code": "GR",
+          "flag": "https://media.api-sports.io/flags/gr.svg"
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2021-10-23",
+            "end": "2022-04-03",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": false,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": false,
+              "top_scorers": false,
+              "top_assists": false,
+              "top_cards": false,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 902,
+          "name": "Algarve Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/902.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2021,
+            "start": "2022-02-16",
+            "end": "2022-02-23",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 279,
+          "name": "Premier League",
+          "type": "League",
+          "logo": "https://media.api-sports.io/football/leagues/279.png"
+        },
+        "country": {
+          "name": "Malaysia",
+          "code": "MY",
+          "flag": "https://media.api-sports.io/flags/my.svg"
+        },
+        "seasons": [
+          {
+            "year": 2022,
+            "start": "2022-03-05",
+            "end": "2022-09-04",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": true,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 767,
+          "name": "CONCACAF League",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/767.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2022,
+            "start": "2022-07-27",
+            "end": "2022-11-03",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      },
+      {
+        "league": {
+          "id": 916,
+          "name": "Kirin Cup",
+          "type": "Cup",
+          "logo": "https://media.api-sports.io/football/leagues/916.png"
+        },
+        "country": {
+          "name": "World",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "year": 2022,
+            "start": "2022-06-10",
+            "end": "2022-06-14",
+            "current": true,
+            "coverage": {
+              "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics_fixtures": false,
+                "statistics_players": false
+              },
+              "standings": false,
+              "players": true,
+              "top_scorers": true,
+              "top_assists": true,
+              "top_cards": true,
+              "injuries": false,
+              "predictions": true,
+              "odds": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
